@@ -1,3 +1,4 @@
+#include<stdio.h>
 int	ft_str_is_alpha(char *str)
 {
 	int	i;
@@ -20,4 +21,9 @@ int	ft_str_is_alpha(char *str)
 	}
 	// Ila derna l-boucle kamla u lqina ghir l-letters, n-rejjo 1
 	return (1);
+}
+int	main()
+{
+	char	str[] = "bcabadbvj ";
+	printf("%d\n", ft_str_is_alpha(str));
 }

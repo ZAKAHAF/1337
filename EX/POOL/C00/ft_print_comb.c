@@ -7,8 +7,8 @@ void	ft_print_comb(void)
 	a = '0'; 
 	while (a <= '7')
 	{
-		; // b ديما كبر من a بـ 1
-		while = (b <= '8')
+		b = a + 1; // b ديما كبر من a بـ 1
+		while  (b <= '8')
 		{
 			c = b + 1; // c ديما كبر من b بـ 1
 			while (c <= '9')
@@ -29,4 +29,8 @@ void	ft_print_comb(void)
 		}
 		a++; // ملي كتسالي b الدورة ديالها، كنزيدو ف a
 	}
+}
+int main()
+{
+	ft_print_comb();
 }
